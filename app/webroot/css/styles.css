@@ -12,6 +12,7 @@ body {
 }
 
 body {
+  -webkit-font-smoothing: antialiased;
   background: repeat url('../images/background-dark-gray.png');
 }
 
