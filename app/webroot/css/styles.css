@@ -1,0 +1,143 @@
+/**
+ * styles.less
+ *
+ * Copyright 2012 Matthew Dunham all rights reserved.
+ */
+
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: repeat url('../images/background-dark-gray.png');
+}
+
+header {
+  height: 350px;
+  margin-top: 4px;
+  background: bottom center no-repeat url('../images/background-header.png');
+}
+
+header h1 {
+  padding: 30px 0 0px 0px;
+  margin: 0;
+  font-family: 'Source Sans Pro', 'Helvetica', 'Arial', sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+header h1 a {
+  color: #181819;
+  text-decoration: none;
+}
+
+header h1 a span {
+  margin-right: 2px;
+}
+
+header h1 a:hover {
+  color: #e71a1a;
+}
+
+header:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: #181819;
+  content: "";
+}
+
+header nav {
+  text-align: center;
+}
+
+header nav a {
+  display: inline-block;
+  padding: 2px 8px;
+  font-family: 'Noticia Text', serif;
+  font-size: 16px;
+  font-style: italic;
+  color: #181819;
+  text-decoration: none;
+}
+
+header nav a:hover,
+header nav a.active {
+  color: #e71a1a;
+}
+
+#bio {
+  position: relative;
+  height: 60%;
+}
+
+#bio h2 {
+  width: 940px;
+  padding: 0;
+  margin: 60px auto 0 auto;
+  font-family: 'Noticia Text', serif;
+  font-size: 60px;
+  font-weight: normal;
+  color: #FFF;
+  text-align: center;
+}
+
+#bio h2 span {
+  font-style: italic;
+  color: #e71a1a;
+}
+
+#bio article {
+  width: 940px;
+  margin: 50px auto;
+  font-family: 'Noticia Text', serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 26px;
+  color: #efefef;
+  text-align: center;
+}
+
+#bio div.heart-container {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  width: 440px;
+  margin-left: -163px;
+}
+
+#bio div.heart-container div {
+  float: left;
+  padding: 20px;
+  font-family: 'Noticia Text', serif;
+  font-size: 70px;
+  color: #f1f1f1;
+}
+
+#bio div.heart-container div.heart {
+  width: 155px;
+  height: 131px;
+  background: no-repeat center center url('../images/pixel-heart.png');
+}
+
+section {
+  padding: 20px;
+}
+
+section div.face {
+  position: absolute;
+  top: -187px;
+  left: 50%;
+  width: 150px;
+  height: 245px;
+  margin-left: -75px;
+  background: no-repeat center center url('../images/head.png');
+}

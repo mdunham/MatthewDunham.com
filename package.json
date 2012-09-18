@@ -1,0 +1,18 @@
+{
+    "name": "matthewdunham.com"
+  , "description": "Web site for Matthew Dunham"
+  , "version": "0.1.0"
+  , "keywords": ["matthew", "dunham", "css", "less"]
+  , "homepage": "http://www.matthewdunham.com/"
+  , "author": "matt@matthewdunham.com"
+  , "scripts": { "test": "make test" }
+  , "repository": {
+      "type": "git"
+    , "url": "https://github.com/mdunham/MatthewDunham.com.git"
+  }
+  , "devDependencies": {
+      "uglify-js": "1.2.6"
+    , "jshint": "0.6.1"
+    , "recess": "1.0.3"
+  }
+}

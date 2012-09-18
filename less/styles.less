@@ -1,0 +1,135 @@
+/**
+ * styles.less
+ *
+ * Copyright 2012 Matthew Dunham all rights reserved.
+ */
+ 
+html, body { margin: 0; padding: 0; height: 100%; }
+
+body { background: repeat url('../images/background-dark-gray.png'); }
+ 
+header {
+	height: 350px;
+	margin-top: 4px;
+	background: bottom center no-repeat url('../images/background-header.png');
+	 
+	h1 {
+		font-family: 'Source Sans Pro', 'Helvetica', 'Arial', sans-serif;
+		font-size: 36px;
+		padding: 30px 0px 0px 0px;
+		margin: 0;
+		font-weight: normal;
+		text-transform: uppercase;
+		text-align: center;
+		
+		a {
+			color: #181819;
+			text-decoration: none;
+			
+			span {
+				margin-right: 2px;
+			}
+			
+			&:hover {
+				color: #e71a1a;
+			}
+		}
+	}
+	 
+	&:after {
+		position: absolute;
+		width: 100%;
+		height: 4px;
+		content: "";
+		background: #181819;
+		top: 0;
+		left: 0;
+	}
+	
+	nav {
+		text-align: center;
+		
+		a {
+			display: inline-block;
+			padding: 2px 8px;
+			font-style: italic;
+			font-family: 'Noticia Text', serif;
+			color: #181819;
+			font-size: 16px;
+			text-decoration: none;
+			
+			&:hover, &.active {
+				color: #e71a1a;
+			}
+		}
+	}
+}
+
+#bio {
+	position: relative;
+	height: 60%;
+	
+	h2 {
+		margin: 60px auto 0 auto;
+		padding: 0;
+		width: 940px;
+		font-family: 'Noticia Text', serif;
+		color: #FFF;
+		font-size: 60px;
+		font-weight: normal;
+		text-align: center;
+		
+		span {
+			color: #e71a1a;
+			font-style: italic;
+		}
+	}
+	
+	article {
+		width: 940px;
+		color: #efefef;
+		font-size: 16px;
+		font-family: 'Noticia Text', serif;
+		font-style: italic;
+		font-weight: normal;
+		line-height: 26px;
+		text-align: center;
+		margin: 50px auto;
+	}
+	
+	div.heart-container {
+		position: absolute;
+		bottom: 20px;
+		left: 50%;
+		width: 440px;
+		margin-left: -163px;
+		
+		div {
+			float: left;
+			font-family: 'Noticia Text', serif;
+			font-size: 70px;
+			color: #f1f1f1;
+			padding: 20px;
+			
+			&.heart {
+				width: 155px;
+				height: 131px;
+				background: no-repeat center center url('../images/pixel-heart.png');
+			}
+		}
+	}
+}
+
+section {
+	padding: 20px;
+	
+	div.face {
+		position: absolute;
+		top: -187px;
+		left: 50%;
+		margin-left: -75px;
+		width: 150px;
+		height: 245px;
+		background: no-repeat center center url('../images/head.png');
+	}
+}
