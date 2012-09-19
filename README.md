@@ -13,23 +13,21 @@ Clone the repo, `git clone git@github.com:mdunham/MatthewDunham.com.git`, or [do
 Developers
 ----------
 
-We have included a makefile with convenience methods for working with the Mercury library.
+We have included a makefile with convenience methods for working with the Mercury library. To run the following commands you must be in terminal. After cloning the repo `cd` to the base folder that contains the app and less folders.
 
-+ **dependencies**
-The makefile requires you have the following: recess, uglifyjs, and jshint. To install these locally, `cd` to the base directory in terminal, and run:
++ **Install Dependencies**
+The makefile requires you have the following: recess, uglifyjs, and jshint run:
 
 ```
 $ npm install
 ```
 
-+ **build**
++ **Run Build Script**
+Run the recess compiler and other tools to compile and minify sources run:
 
 ```
 $ make
 ```
-
-Runs the recess compiler and other tools to compile the sources into production.
-
 
 Copyright and license
 ---------------------
