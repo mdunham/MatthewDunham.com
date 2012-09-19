@@ -17,7 +17,7 @@
 		<title><?php echo $title; ?></title>
 		
 		<meta name="keywords" content="matthew,dunham,web,site,development,coffeyville,kansas,php,javascript,cakephp,jquery,enterprise,application,engineer" />
-		<meta name="description" content="Professional software developer born and raised in a small town. With over a decade of experience I believe in hard work and respect." />
+		<meta name="description" content="Professional software developer, born and raised in a small town. WIth over a decade of experience, I believe in hard work and respect." />
 		<meta name="copyright" content="2012 Matthew Dunham, all rights reserved." />
 		<meta name="viewport" content="width=1024, user-scalable=no" />
 		<meta http-equiv="X-UA-Compatible" content="IE=9" />
@@ -29,7 +29,7 @@
 	</head>
 	<body>
 		<header>
-			<h1><a href="http://www.matthewdunham.com/"><span>Mat</span>thew Dunham</a></h1>
+			<h1><a title="Matthew Dunham" href="http://matthewdunham.com/"><span>Mat</span>thew Dunham</a></h1>
 			<nav><a href="http://linkedin.com/in/matthewdunham">LinkedIn</a><a href="<?php echo $this->url('/MatthewDunham.pdf'); ?>">Resume</a><a href="mailto:matt@matthewdunham.com">Contact</a></nav>
 		</header>
 		<section id="bio">

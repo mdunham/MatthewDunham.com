@@ -1,3 +1,11 @@
+# Rewrite "www.example.com -> example.com".
+
+<IfModule mod_rewrite.c>
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+  RewriteRule ^ http://matthewdunham.com [R=301,L]
+</IfModule>
+
 <IfModule mod_rewrite.c>
 	RewriteEngine on
 	RewriteBase /
