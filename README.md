@@ -22,7 +22,12 @@ The makefile requires you have the following: recess, uglifyjs, and jshint. To i
 $ npm install
 ```
 
-+ **build** - `make`
++ **build**
+
+```
+$ make
+```
+
 Runs the recess compiler and other tools to compile the sources into production.
 
 
